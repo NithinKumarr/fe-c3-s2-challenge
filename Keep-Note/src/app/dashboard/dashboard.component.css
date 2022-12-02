@@ -1,0 +1,22 @@
+.card {
+    width: 100px;
+    border: 3px solid lightblue;
+    box-shadow: 4px 4px 1px 1px lightblue;
+    padding: 40px;
+    height: 180px;
+    float: left;
+    margin:10px;
+    border-radius: 20px;
+}
+.search-box{
+    
+    display:inline; 
+    margin-left:500px;
+    padding: 5px;
+    border: 2px solid lightblue;
+    border-radius: 50px;
+
+}
+#ignore{
+    color: white;
+}

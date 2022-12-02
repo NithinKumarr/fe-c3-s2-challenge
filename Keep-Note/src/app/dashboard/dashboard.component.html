@@ -1,0 +1,16 @@
+<div class="search-box">
+    <input type="text" placeholder="Search note" [(ngModel)]="searchText" />
+    <button (click)="search()" type="button">search</button>
+    <!-- <button (click)="reset()" type="button">Clear</button> -->
+</div>
+<div>
+    <p id="ingore">.</p>
+</div>
+
+<div class="card" *ngFor="let note of notes">
+    <!-- src="app/models/notes/{{note.title}}" -->>
+    <div>
+        <h4>{{note.title}}</h4>
+        <span>{{note.content}} </span>
+     </div>
+</div>
